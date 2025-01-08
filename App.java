@@ -19,12 +19,14 @@ public class App {
         p1.age = 18;
         p1.speak();
         p1.hello();
+
         System.out.println(p1.name);
 
         Person p2 = new Person();
         p2.name = "Naum";
         p2.age = 48;
         p2.speak();
+
         System.out.println(p2.name);
     }
 }
