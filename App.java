@@ -1,11 +1,18 @@
 class Person{
     String name;
     int age;
+    String text;
+    int height;
+
     void speak(){
         System.out.println("My name is" + name + "and I am " + age + " years old");
     }
     void hello(){
         System.out.println("Hello there!");
+    }
+
+    public  void jump(int height){
+        System.out.println("Jumping: "+ height);
     }
 
     int calculateAgeToRetirement(){
@@ -38,6 +45,7 @@ public class App {
         p2.name = "Naum";
         p2.age = 48;
         p2.speak();
+        p2.jump(25);
 
         System.out.println(p2.name);
     }
