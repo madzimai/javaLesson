@@ -7,6 +7,14 @@ class Person{
     void hello(){
         System.out.println("Hello there!");
     }
+
+    int calculateAgeToRetirement(){
+        int yearsLeft = 65 - age;
+        return yearsLeft;
+    }
+    int getAge(){
+        return age;
+    }
 }
 
 
@@ -19,7 +27,11 @@ public class App {
         p1.age = 18;
         p1.speak();
         p1.hello();
+       int age = p1.getAge();
 
+       int years = p1.calculateAgeToRetirement();
+        System.out.println(years);
+        System.out.println(p1.getAge());
         System.out.println(p1.name);
 
         Person p2 = new Person();
