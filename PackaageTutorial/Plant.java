@@ -7,8 +7,11 @@ public class Plant {
 
    private String type;
 
+   protected String size;
+
    public Plant(){
        this.name = "Netsai";
        this.type = "plant";
+       this.size = "small";
    }
 }
