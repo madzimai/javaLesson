@@ -9,4 +9,16 @@ public class Variables {
 
     //double number4, double fig; // two data type must not be in same line and seperated by a comma so they should like line 4
 
+    //Invalid indentifier
+
+//    int 3Dindentifier;
+//    int holly@c;
+//    int *$kot;
+//    int class;
+
+    //Valid identifier
+    int $kot2;
+    int __nice;
+    int _Hook;
+    int wait;
 }
