@@ -10,6 +10,12 @@ public class Condition {
         String String = "string isa string";
         System.out.println(String.substring(3, 6));//ing
         System.out.println(String.charAt(6)+"MM");
+        boolean b = false;
+        int i = 1;
+        do{
+            i++ ;
+        } while (b = !b);
+        System.out.println( i );
 
     }
 }
