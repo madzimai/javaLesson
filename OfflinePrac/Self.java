@@ -2,14 +2,14 @@ package OfflinePrac;
 import java.time.*;
 
 public class Self implements Off{
-    public void off() {
+    public void off(String kkk) {
     }
     public void eat(){
         System.out.println("date");
     }
     public static void main(String[] args) {
         Off off = new Self();
-        off.off();
+        off.off("kkk");
 
         LocalDate date = LocalDate.parse("2020-01-02");
         System.out.println(date);
