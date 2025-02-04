@@ -16,4 +16,5 @@ public class Machine implements Info{
         System.out.println("Machine Info  " + name);
 
     }
+
 }
