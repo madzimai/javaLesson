@@ -1,4 +1,5 @@
-package Prac-03-02;
+package OfflinePracFeb;
+
 
 
 class XXX{
@@ -22,9 +23,9 @@ public class Prac {
         XXX xxx2 = new XXX(); // it won't work bcz the exception thown in XXX class is not handled in main method
 
         yyy.m1();
-        xxx2.m1();
+//        xxx2.m1();
         yyy1.m1();
-        xxx.m1();
+//        xxx.m1();
 
 
 
