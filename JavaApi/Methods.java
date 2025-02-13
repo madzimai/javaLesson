@@ -1,5 +1,7 @@
 package JavaApi;
 
+import java.util.Arrays;
+
 public class Methods {
     String name;
     public static void main(String[] args) {
@@ -14,5 +16,8 @@ public class Methods {
         System.out.println(t1 == t1);// true because we are comparing same ref
         System.out.println(t1.equals(t2));// the class does not implement equals()
         System.out.println(t1 == t2);// false because the ref are different
+        String[] strings = { "81", "9", "100" };
+        Arrays.sort(strings);
+        System.out.println(Arrays.toString(strings));
     }
 }
