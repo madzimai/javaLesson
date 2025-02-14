@@ -1,10 +1,10 @@
 package Write;
 
-class A{
+class A1{
     public int i = 10;
     private int J = 20;
 }
-class B extends A{
+class B extends A1{
     private int i = 20;
     public int k = 40;
 }
@@ -17,7 +17,7 @@ public class Q11 {
        // System.out.println(c.j);
         System.out.println(c.k);
 
-        System.out.println(((A)c).i);
+        System.out.println(((A1)c).i);
 
     }
 }
