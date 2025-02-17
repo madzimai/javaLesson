@@ -40,6 +40,7 @@ public class Machine {
            while (i++ < 15)
                 i = i + 20;
         while (i < 2);
-        System.out.println(i);
+        System.out.println(i);//it prints 32The condition i++ < 15 checks i = 10 first, then increments i to 11.
+       // But after setting i = 31, the next condition check happens with i = 31, which still gets incremented to 32 before exiting.
     }
 }
