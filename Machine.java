@@ -27,13 +27,19 @@ public class Machine {
     }
 
     public static void main(String[] args) {
-        Machine.description = "Luky";
-        Machine.showInfo();
+      Machine.description = "Luky";
+      Machine.showInfo();
 
-        Machine m = new Machine();
-        m.showInfo();
+       Machine m = new Machine();
+       m.showInfo();
         m.name="mmm";
         m.show();
 
+        int i = 10;
+        do
+           while (i++ < 15)
+                i = i + 20;
+        while (i < 2);
+        System.out.println(i);
     }
 }
