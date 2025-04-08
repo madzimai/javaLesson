@@ -27,13 +27,20 @@ public class Machine {
     }
 
     public static void main(String[] args) {
-        Machine.description = "Luky";
-        Machine.showInfo();
+      Machine.description = "Luky";
+      Machine.showInfo();
 
-        Machine m = new Machine();
-        m.showInfo();
+       Machine m = new Machine();
+       m.showInfo();
         m.name="mmm";
         m.show();
 
+        int i = 10;
+        do
+           while (i++ < 15)
+                i = i + 20;
+        while (i < 2);
+        System.out.println(i);//it prints 32The condition i++ < 15 checks i = 10 first, then increments i to 11.
+       // But after setting i = 31, the next condition check happens with i = 31, which still gets incremented to 32 before exiting.
     }
 }
