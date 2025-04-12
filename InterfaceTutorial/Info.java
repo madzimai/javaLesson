@@ -1,7 +1,8 @@
 package InterfaceTutorial;
 
 public interface Info {
-    public  void printInfo();
+
+    public void printInfo();
 
     static void m(){
         System.out.println("This is Info");
