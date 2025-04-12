@@ -8,12 +8,12 @@ public class PersonTest {
     @Test
     public void testPerson() {
         Person person = new Person();
-        assertEquals("Hello world", person.helloPerson2());
+        assertEquals("Hello World", person.helloPerson2());
     }
 
     @Test
     public void shouldReturnMarcus(){
         Person person = new Person();
-        assertEquals("Hello world", person.helloPerson("Marcus"));
+        assertEquals("Hello Marcus", person.helloPerson("Marcus"));
     }
 }
