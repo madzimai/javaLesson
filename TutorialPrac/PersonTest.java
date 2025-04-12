@@ -16,4 +16,13 @@ public class PersonTest {
         Person person = new Person();
         assertEquals("Hello Marcus", person.helloPerson("Marcus"));
     }
+    @Test
+    public void shouldReturnNumberOfPersonsInLoop(){
+        Person person;
+     for(int i = 0; i < 4; i++) {
+       person = new Person();
+     }
+     assertEquals(4, Person.numberOfPersons());
+    }
+
 }
