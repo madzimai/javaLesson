@@ -25,7 +25,11 @@ public class Cook extends Food implements InnerCook{
         System.out.println("munandi");
     }
     public static void main(String[] args){
-       
-    }
-    
+        Cook ck = new Cook();
+        // Food fd = (Food)Cook();
+                System.out.println(InnerCook.took);
+                System.out.println(ck.flavour());
+                // System.out.println(fd.flavour());
+               
+            }
 }
